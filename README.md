@@ -1,61 +1,21 @@
-SayiTahminOyunu/
-├── main.py
-└── README.md
-2. main.py kodu
-python
 
-import random
+Proje Yazarı: Beyazıt_ÇALDAĞI
+# Proje Adı: Akıllı Hava Asistanı v1.0
 
-def oyun():
-    gizli_sayi = random.randint(1, 100)
-    deneme = 0
+## Projenin Amacı:
+Kullanıcılara sıcaklığa göre öneriler vermek.
 
-    print("🎮 SAYI TAHMİN OYUNU")
-    print("1 ile 100 arasında bir sayı tuttum!")
+## Projenin Hedefleri:
+* V1.0 Sıcaklık kontrolü
+* V2.0 Hava önerileri
 
-    while True:
-        try:
-            tahmin = int(input("Tahminin: "))
+# Projenin Kapsamı: Hava durumu
 
-            if not 1 <= tahmin <= 100:
-                print("Lütfen 1 ile 100 arasında bir sayı gir.")
-                continue
+BAŞLA
+sıcaklık oku (derece)
+EĞER sıcaklık < 10 YAZ "Kalın giyin"
+DEĞİLSE EĞER sıcaklık < 20 YAZ "Ceket giy"
+DEĞİLSE YAZ "Hava sıcak"
+DUR
 
-            deneme += 1
-
-            if tahmin < gizli_sayi:
-                print("Daha büyük bir sayı dene!")
-            elif tahmin > gizli_sayi:
-                print("Daha küçük bir sayı dene!")
-            else:
-                print(f"🎉 Tebrikler! {deneme} denemede buldun!")
-                break
-
-        except ValueError:
-            print("Lütfen geçerli bir tam sayı gir.")
-
-if __name__ == "__main__":
-    oyun()
-3. README.md kodu
-markdown
-
-# Sayı Tahmin Oyunu 🎮
-
-Python ile geliştirilmiş basit bir sayı tahmin oyunu.
-
-## Özellikler
-- 1-100 arasında rastgele sayı
-- Anlık ipuçları
-- Hatalı giriş kontrolü
-- Deneme sayacı
-
-## Çalıştırma
-
-Python 3 kurulu olmalıdır.
-
-```bash
-python main.py
-```
-
-## Lisans
-MIT
+## Kaynakça: Programlama Temelleri, Hocamın Yaptığı Eski Kod 
