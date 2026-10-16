@@ -1,21 +1,37 @@
+Proje Yazarı: Beyazıt Çaldağı
 
-Proje Yazarı: Beyazıt_ÇALDAĞI
-# Proje Adı: Akıllı Hava Asistanı v1.0
+Proje Adı: Akıllı Hava Asistanı v1.0
 
-## Projenin Amacı:
-Kullanıcılara sıcaklığa göre öneriler vermek.
+Projenin Amacı
 
-## Projenin Hedefleri:
-* V1.0 Sıcaklık kontrolü
-* V2.0 Hava önerileri
+Kullanıcılara hava sıcaklığına göre uygun giyim önerileri sunmak.
 
-# Projenin Kapsamı: Hava durumu
+Projenin Hedefleri
+
+- V1.0: Sıcaklık kontrolü yapmak.
+- V2.0: Sıcaklığa göre hava ve giyim önerileri sunmak.
+
+Projenin Kapsamı
+
+Hava sıcaklığının kontrol edilmesi ve sıcaklığa uygun giyim önerilerinin verilmesi.
+
+Sözde Kod
 
 BAŞLA
+
 sıcaklık oku (derece)
-EĞER sıcaklık < 10 YAZ "Kalın giyin"
-DEĞİLSE EĞER sıcaklık < 20 YAZ "Ceket giy"
-DEĞİLSE YAZ "Hava sıcak"
+
+EĞER sıcaklık < 10 İSE
+ YAZ "Mont giy"
+
+DEĞİLSE EĞER sıcaklık < 20 İSE
+ YAZ "Ceket giy"
+
+DEĞİLSE
+ YAZ "İnce kıyafetler tercih et"
+
 DUR
 
-## Kaynakça: Programlama Temelleri, Hocamın Yaptığı Eski Kod 
+Kaynakça
+
+Programlama Temelleri, Hocamın Eski Kodu 
